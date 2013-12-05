@@ -1,0 +1,37 @@
+body {
+	background-color:#00688B;
+	font-family: sans-serif;
+}
+
+div {
+	margin: 30px;
+	border: 2px solid black;
+	padding: 20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #FFD700;
+	width: 430px;
+	box-shadow: rgba(0,0,0,0.2) 5px 5px;
+}
+
+legend {
+	decoration: none;
+}
+
+#wikilogo {
+	text-align: center;
+}
+
+#suchformular {
+	height: 100px;
+}
+
+#validierung {
+	text-align: center;
+}
+
+#wcag2 {
+	box-shadow: rgba(0,0,0,0.2) 5px 5px;
+}
