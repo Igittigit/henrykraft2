@@ -4,20 +4,33 @@ body {
 }
 
 div {
-	margin: 30px;
-	border: 2px solid black;
-	padding: 20px;
+	margin: 10px auto;
+	border: 1px solid black;
+	padding: 10px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	background-color: #FFD700;
-	width: 430px;
+	width: 500px;
 	box-shadow: rgba(0,0,0,0.2) 5px 5px;
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
 }
 
 legend {
 	decoration: none;
+}
+
+label {
+	font-size: 10px;
+}
+
+input {
+	margin: 5px;
 }
 
 #wikilogo {
@@ -25,7 +38,8 @@ legend {
 }
 
 #suchformular {
-	height: 100px;
+	height: auto;
+	text-align: justify;
 }
 
 #validierung {
